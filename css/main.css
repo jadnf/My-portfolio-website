@@ -1,0 +1,6 @@
+body {
+    background-color: rgb(85, 147, 85);
+}
+#nav-list li{
+    display: inline;
+}
