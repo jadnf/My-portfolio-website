@@ -1,8 +1,32 @@
+
+.pixelify-sans{
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.micro-5-regular {
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+ 
+header {
+    padding: 0;
+    color:#e8985a;
+}
+li {
+    margin-left: 30px;
+    margin-right: 30px;
+}
 body {
     /*background-color: rgb(85, 147, 85);*/
-    background-image: url(My-portfolio-website\images\thething.gif);
+    background-image: url(../images/4vztk5m7p9651.jpg);
+    color: #e85a5a;
+    font-family: "Pixelify Sans" ;
     background-position: center;
     background-size: cover;
+    font-size: 2em;
 
 }
 #nav-list li{
@@ -17,4 +41,19 @@ body {
     object-fit: contain;
     width: 350;
     height: 350;
+}
+p {
+    color:#e85a5a;
+}
+h1, h2, h3, h4, h5 {
+    color:#e8985a;
+}
+th {
+    color: #000000;
+}
+a:link {
+    color:rgb(26, 62, 147)
+}
+a:visited {
+    color:#ff7033
 }
