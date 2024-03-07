@@ -1,6 +1,20 @@
 body {
-    background-color: rgb(85, 147, 85);
+    /*background-color: rgb(85, 147, 85);*/
+    background-image: url(My-portfolio-website\images\thething.gif);
+    background-position: center;
+    background-size: cover;
+
 }
 #nav-list li{
     display: inline;
+}
+#slideshow {
+    object-fit: contain;
+    width: 350;
+    height: 350;
+}
+#album-cover {
+    object-fit: contain;
+    width: 350;
+    height: 350;
 }
